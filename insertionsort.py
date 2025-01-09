@@ -1,5 +1,5 @@
 def insertion_sort(A):
-    for j in range (1, len(A)):
+    for j in range (1, len(A)): 
         key = A[j]
         i= j-1
         while i>=0 and A[i]>key:
@@ -7,7 +7,8 @@ def insertion_sort(A):
             i = i - 1
         A[i+1] = key
 
-arr = [4, 8, 10, 1, 6]
-print(arr)
-insertion_sort(arr)
-print(arr)
+# best case: T(n) = an + b
+#                   ^^^ linear time complexity
+
+# worst case: T(n) = an^2 + bn + c 
+#                   ^^^ quadratic time complexity 
