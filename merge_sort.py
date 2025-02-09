@@ -25,6 +25,3 @@ def merge(left, right):
 
     return sorted_arr
 
-arr = [6, 3, 8, 5, 2, 7, 4, 1]
-sorted_arr = merge_sort(arr)
-print(sorted_arr)
